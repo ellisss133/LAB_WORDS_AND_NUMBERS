@@ -1,0 +1,14 @@
+c:\Users\roman\Desktop\program\WordsCorrector\bin\Debug\net9.0\WordsCorrector.exe
+c:\Users\roman\Desktop\program\WordsCorrector\bin\Debug\net9.0\WordsCorrector.deps.json
+c:\Users\roman\Desktop\program\WordsCorrector\bin\Debug\net9.0\WordsCorrector.runtimeconfig.json
+c:\Users\roman\Desktop\program\WordsCorrector\bin\Debug\net9.0\WordsCorrector.dll
+c:\Users\roman\Desktop\program\WordsCorrector\bin\Debug\net9.0\WordsCorrector.pdb
+c:\Users\roman\Desktop\program\WordsCorrector\obj\Debug\net9.0\WordsCorrector.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\roman\Desktop\program\WordsCorrector\obj\Debug\net9.0\WordsCorrector.AssemblyInfoInputs.cache
+c:\Users\roman\Desktop\program\WordsCorrector\obj\Debug\net9.0\WordsCorrector.AssemblyInfo.cs
+c:\Users\roman\Desktop\program\WordsCorrector\obj\Debug\net9.0\WordsCorrector.csproj.CoreCompileInputs.cache
+c:\Users\roman\Desktop\program\WordsCorrector\obj\Debug\net9.0\WordsCorrector.dll
+c:\Users\roman\Desktop\program\WordsCorrector\obj\Debug\net9.0\refint\WordsCorrector.dll
+c:\Users\roman\Desktop\program\WordsCorrector\obj\Debug\net9.0\WordsCorrector.pdb
+c:\Users\roman\Desktop\program\WordsCorrector\obj\Debug\net9.0\WordsCorrector.genruntimeconfig.cache
+c:\Users\roman\Desktop\program\WordsCorrector\obj\Debug\net9.0\ref\WordsCorrector.dll
