@@ -36,6 +36,7 @@ class FileProcessor
       {
         string fileContent = File.ReadAllText(file);
         fileContent = FixTypos(fileContent);
+        fileContent = FixPhoneNumbers(fileContent);
         File.WriteAllText(file, fileContent);
       }
     }
@@ -52,6 +53,15 @@ class FileProcessor
       content = content.Replace(typo.Key, typo.Value);
     }
     return content;
+  }
+
+  private string FixPhoneNumbers(string content)
+  {
+    return Regex.Replace(content, phonePattern, match =>
+    {
+      string numbers = match.Value.Replace("(", "").Replace(")", "").Replace("-", "");
+      return $"+380 {numbers.Substring(0, 2)} {numbers.Substring(2, 3)} {numbers.Substring(5, 2)} {numbers.Substring(7, 2)}";
+    });
   }
 }
 
