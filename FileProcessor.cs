@@ -21,9 +21,10 @@ class FileProcessor
       {
         Console.WriteLine($"#{index + 1} Misspell:");
         string typo = Console.ReadLine();
+        
         Console.WriteLine($"#{index + 1} Correction:");
         string correction = Console.ReadLine();
-        
+
         if (!string.IsNullOrWhiteSpace(typo) && !string.IsNullOrWhiteSpace(correction))
         {
           typoCorrections[typo] = correction;
