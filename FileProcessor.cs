@@ -17,11 +17,11 @@ class FileProcessor
     Console.WriteLine("Enter the number of typos to replace:");
     if (int.TryParse(Console.ReadLine(), out int count))
     {
-      for (int i = 0; i < count; i++)
+      for (int index = 0; index < count; ++index)
       {
-        Console.WriteLine($"#{i + 1} Misspell:");
+        Console.WriteLine($"#{index + 1} Misspell:");
         string typo = Console.ReadLine();
-        Console.WriteLine($"#{i + 1} Correction:");
+        Console.WriteLine($"#{index + 1} Correction:");
         string correction = Console.ReadLine();
         if (!string.IsNullOrWhiteSpace(typo) && !string.IsNullOrWhiteSpace(correction))
         {
